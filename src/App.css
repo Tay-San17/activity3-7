@@ -1,0 +1,109 @@
+.app-shell {
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.navbar {
+  padding: 16px 20px;
+  border-bottom: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar p {
+  margin: 4px 0 0;
+  color: #666;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.nav-button,
+.primary-button,
+.secondary-button {
+  padding: 8px 12px;
+  border: 1px solid #bbb;
+  background: #fff;
+  cursor: pointer;
+}
+
+.nav-button {
+  text-decoration: none;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.panel {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+
+.form-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.form-grid label {
+  display: grid;
+  gap: 6px;
+}
+
+.form-grid input {
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.result,
+.status-message {
+  padding: 14px;
+  border: 1px solid #d9d9d9;
+  background: #fafafa;
+}
+
+.strength-bar {
+  margin-top: 12px;
+  height: 8px;
+  background: #ddd;
+}
+
+.strength-bar span {
+  display: block;
+  height: 100%;
+  width: 0;
+}
+
+.strength-bar.weak span {
+  width: 33%;
+  background: #d33;
+}
+
+.strength-bar.medium span {
+  width: 66%;
+  background: #e8a400;
+}
+
+.strength-bar.strong span {
+  width: 100%;
+  background: #2d8a34;
+}
